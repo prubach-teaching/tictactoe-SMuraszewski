@@ -117,7 +117,7 @@ public class TicTacToe {
         return Result.NO_WINNER;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         Result res = checkBoard("boards/tick0.csv");
         System.out.println(res);
     }
