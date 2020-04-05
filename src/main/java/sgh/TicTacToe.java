@@ -118,7 +118,7 @@ public class TicTacToe {
     }
 
     public static void main(String[] args) {
-        Result res = checkBoard("boards/tick0.csv");
+        Result res = checkBoard("boars/tick0.csv");
         System.out.println(res);
     }
 }
